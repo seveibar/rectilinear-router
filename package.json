@@ -1,6 +1,6 @@
 {
   "name": "rectilinear-router",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
@@ -8,6 +8,7 @@
     "build": "tsup ./src/index.ts --dts --sourcemap"
   },
   "dependencies": {
+    "lodash": "^4.17.21",
     "rsmt-ts": "^1.1.4"
   },
   "devDependencies": {
